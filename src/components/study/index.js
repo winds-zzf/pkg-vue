@@ -1,0 +1,115 @@
+export default{
+  path:'study',
+  meta:{title:'学习',icon:'el-icon-setting'},
+  component:()=>import('../study/Index.vue'),
+  children:[
+    {
+      path: 'chart',
+      name: 'Chart',
+      component: ()=>import('./Chart.vue'),
+      meta:{title:'Chart',icon:'el-icon-setting'},
+    },
+    {
+      path: 'path',
+      name: 'Path',
+      component: ()=>import('./Path.vue'),
+      meta:{title:'Path',icon:'el-icon-setting'},
+    },
+    {
+      path: 'curve',
+      name: 'Curve',
+      component: ()=>import('./Curve.vue'),
+      meta:{title:'Curve',icon:'el-icon-setting'},
+    },
+    {
+      path: 'custom',
+      name: 'Custom',
+      component: ()=>import('./Custom.vue'),
+      meta:{title:'Custom',icon:'el-icon-setting'},
+    },
+    {
+      path: 'custom1',
+      name: 'Custom1',
+      component: ()=>import('./Custom1.vue'),
+      meta:{title:'Custom1',icon:'el-icon-setting'},
+    },
+    {
+      path: 'graph',
+      name: 'Graph',
+      component: ()=>import('./Graph.vue'),
+      meta:{title:'Graph',icon:'el-icon-setting'},
+    },
+    {
+      path: 'graph1',
+      name: 'Graph1',
+      component: ()=>import('./Graph1.vue'),
+      meta:{title:'Graph1',icon:'el-icon-setting'},
+    },
+    {
+      path: 'graph2',
+      name: 'Graph2',
+      component: ()=>import('./Graph2.vue'),
+      meta:{title:'Graph2',icon:'el-icon-setting'},
+    },
+    {
+      path: 'graph3',
+      name: 'Graph3',
+      component: ()=>import('./Graph3.vue'),
+      meta:{title:'Graph3',icon:'el-icon-setting'},
+    },
+    {
+      path: 'graph4',
+      name: 'Graph4',
+      component: ()=>import('./Graph4.vue'),
+      meta:{title:'Graph4',icon:'el-icon-setting'},
+    },
+    {
+      path: 'graph5',
+      name: 'Graph5',
+      component: ()=>import('./Graph5.vue'),
+      meta:{title:'Graph5',icon:'el-icon-setting'},
+    },
+    {
+      path: 'select',
+      name: 'Select',
+      component: ()=>import('./Select.vue'),
+      meta:{title:'Select',icon:'el-icon-setting'},
+    },
+    {
+      path: 'drag',
+      name: 'Drag',
+      component: ()=>import('./Drag.vue'),
+      meta:{title:'Drag',icon:'el-icon-setting'},
+    },
+    {
+      path: 'transition',
+      name: 'Transition',
+      component: ()=>import('./Transition.vue'),
+      meta:{title:'Transition',icon:'el-icon-setting'},
+    },
+    {
+      path: 'transform',
+      name: 'Transform',
+      component: ()=>import('./Transform.vue'),
+      meta:{title:'Transform',icon:'el-icon-setting'},
+    },
+    {
+      path: 'zoom',
+      name: 'Zoom',
+      component: ()=>import('./Zoom.vue'),
+      meta:{title:'Zoom',icon:'el-icon-setting'},
+    },
+    {
+      path: 'group',
+      name: 'Group',
+      component: ()=>import('./Group.vue'),
+      meta:{title:'Group',icon:'el-icon-setting'},
+    },
+    {
+      path: 'relative',
+      name: 'Relative',
+      component: ()=>import('./Relative.vue'),
+      meta:{title:'Relative',icon:'el-icon-setting'},
+    },
+  ]
+}
